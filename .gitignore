@@ -3,11 +3,6 @@
 ##########
 albums/*
 
-####################################
-# Contains sensitive password data #
-####################################
-php/modules/ConnectToDatabase.php
-
 ##################################
 # Visual Studios editor nonsense #
 ##################################
@@ -17,9 +12,5 @@ php/modules/ConnectToDatabase.php
 # Zen Photo Nonsense #
 ######################
 cache/*
-zp-data/*.log
-zp-data/*.cfg.php
-zp-data/*.cfg.bak.php
-zp-data/.mutex/
+cache_html/*
 zp-data/*
-zz_bu_zp-data/*
