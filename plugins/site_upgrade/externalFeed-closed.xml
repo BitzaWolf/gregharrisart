@@ -1,0 +1,14 @@
+			<external version="1.0" >
+				
+				<channel>
+					<link href="http://gregharrisart.com/zp-core/setup/setup_pluginOptions.php?plugin=site_upgrade" />
+					<language>en-US</language>
+											<item>
+							<title><![CDATA[externalFeed suspended]]></title>
+							<link>http://gregharrisart.com/</link>
+							<description><![CDATA[The external feed is currently not available.]]></description>
+														<pubDate>Sat, 06 May 2017 15:34:57 -0700</pubDate>
+						</item>
+										</channel>
+			</external>
+			

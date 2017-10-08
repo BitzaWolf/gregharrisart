@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/albums/
+Allow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/cache/
+Allow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/cache_html/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/themes/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/zp-core/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/zp-data/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/page/search/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/uploaded/
+Disallow: /lib/zenphoto/zenphoto-zenphoto-1.4.14/backup/
+
+# Link to the sitemap file if using teh sitemap-extended plugin.
+# Change it to your domain and uncomment the line to use it:
+# sitemap: http://www.yourdomain.com/cache_html/sitemap/sitemapindex.xml
