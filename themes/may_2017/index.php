@@ -27,8 +27,9 @@ if (!defined('WEBPATH'))
 	</nav>
 </header>
 
+
 <? while (next_album()): ?>
-<div class="album">
+<div class="title-page-album" style="background-image: url('<? echo getCustomAlbumThumb(1200); ?>')">
     <div class="thumb">
         <a href="<? echo html_encode(getAlbumURL()); ?>"><? printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
     </div>

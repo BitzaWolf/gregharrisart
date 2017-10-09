@@ -82,3 +82,10 @@ nav a:hover
 	font-family: sans-serif;
 	font-size: 1.2rem;
 }
+
+.title-page-album
+{
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+}
