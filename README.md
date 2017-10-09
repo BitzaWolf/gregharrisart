@@ -12,3 +12,7 @@ him a portfolio website to showcase his art.
 # Zenphoto Image CMS
 This site uses Zenphoto CMS so my friend can more easily upload photos
 and attach metadata to them.
+
+While I'm not a fan of the code styling used by the library, I am handicapped
+by what I can build. I have limited access on my hosting plan so I can’t use
+handy tools like Symfony or NPM – I can only run basic PHP scripts.
