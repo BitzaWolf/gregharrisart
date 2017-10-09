@@ -13,10 +13,21 @@
 **/
 body
 {
-	background-color: #333;
+	background-color: #111;
 	color: #EEE;
 	font-family: sans-serif;
 	margin: 0;
+}
+
+a
+{
+	color: #EEE;
+}
+
+footer
+{
+	display: flex;
+	padding: 16px;
 }
 
 h1, h2, h3, h4
@@ -76,9 +87,15 @@ nav a:hover
 	transition: background-color 0.2s;
 }
 
+
+
 /**
 * Classes
 **/
+.copyright
+{
+	margin-right: 64px;
+}
 
 .site-header-title
 {
