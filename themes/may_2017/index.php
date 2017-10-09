@@ -18,11 +18,14 @@ if (!defined('WEBPATH'))
 
 
 <?php zp_apply_filter('theme_body_open'); ?>
-<header style="display: none">
-    <h1><? printGalleryTitle(); ?></h1>
+<header>
+    <span class="site-header-title">Greg Harris Art</span>
+	<nav>
+		<? while (next_album()): ?>
+			<a href="<? echo html_encode(getAlbumURL()); ?>"><? printAlbumTitle(); ?></a>
+		<? endwhile; ?>
+	</nav>
 </header>
-
-<h1><? printGalleryTitle(); ?></h1>
 
 <? while (next_album()): ?>
 <div class="album">
