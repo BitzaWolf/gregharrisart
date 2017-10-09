@@ -46,6 +46,8 @@ header
 	display: flex;
 	height: 32px;
 	padding-left: 32px;
+	position: fixed;
+    width: 100%;
 }
 
 nav
