@@ -30,15 +30,9 @@ if (!defined('WEBPATH'))
 
 <? while (next_album()): ?>
 <div class="title-page-album" style="background-image: url('<? echo getCustomAlbumThumb(1200); ?>')">
-    <div class="thumb">
-        <a href="<? echo html_encode(getAlbumURL()); ?>"><? printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
-    </div>
-    <div class="albumdesc">
-        <h3><a href="<? echo html_encode(getAlbumURL()); ?>"><? printAlbumTitle(); ?></a></h3>
-        <small><? printAlbumDate(); ?></small>
-        <div><? printAlbumDesc(); ?></div>
-    </div>
+    <a href="<? echo html_encode(getAlbumURL()); ?>"><? printAlbumTitle(); ?></a>
 </div>
+<hr class="title-page-album-seperator" />
 <? endwhile; ?>
 
 <div id="main" style="display: none;">
