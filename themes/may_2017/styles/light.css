@@ -15,6 +15,7 @@ body
 {
 	background-color: #333;
 	color: #EEE;
+	font-family: sans-serif;
 	margin: 0;
 }
 
@@ -41,15 +42,15 @@ h3
 header
 {
 	align-items: center;
-	background-color: #222;
+	background-color: #111;
 	display: flex;
-	height: 56px;
+	height: 32px;
 	padding-left: 32px;
 }
 
 nav
 {
-	align-items: flex-end;
+	align-items: center;
 	display: flex;
 	height: 100%;
 	margin-left: 32px;
@@ -57,10 +58,19 @@ nav
 
 nav a
 {
-	background-color: #111;
-	display: block;
-	margin: 0 8px;
-	padding: 40px 16px 0;
+	align-items: center;
+	color: #EEE;
+	display: flex;
+	height: 100%;
+	padding: 0 32px;
+	text-decoration: none;
+	transition: background-color 0.2s;
+}
+
+nav a:hover
+{
+	background-color: #333;
+	transition: background-color 0.2s;
 }
 
 /**
@@ -70,5 +80,5 @@ nav a
 .site-header-title
 {
 	font-family: sans-serif;
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
